@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>week 3</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<style>
+
+	ul#nav-list li {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+    padding: 6px;
+    margin: 10px 0;
+}
+	
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: maroon;
+	font-family: 'Oxygen', sans-serif;
+}	
+#header-nav{
+	background-color: #f6b319;
+	padding: 20px;
+	padding-bottom: 20px;
+	margin :0;
+	
+}
+.navbar-toggle{
+	position: relative;
+	float: right;
+	padding: 9px, 10px;
+	margin-top: 8px;
+	margin-right: 10px;
+	background-color: transparent;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+
+
+}
+
+.navbar-toggle:focus {
+  outline: 0;
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+}
+}
+
+	
+
+.box{
+	margin-bottom: 30px;
+	text-align: center;
+    background-color: purple;
+     box-shadow: 0 0 30px red;
+  }
+
+    
+ .box p {
+	display: inline-flex;
+	margin: 0;
+    padding: 10px;
+	}
+
+
+h3 {
+	padding: 30px 0;
+}
+
+
+header{
+	font-weight: bold; 
+}
+
+#nav-list{
+
+	margin-top: 10px;
+
+}
+#nav-list a{
+	color: red;
+	text-align: center;
+	background-color: skyblue;
+}
+#nav-list a:hover {
+	color: black;
+background color: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+.container{
+	color: black;
+	margin-left: 5px;
+}
+#collapsable-nav{
+	background-color: skyblue;
+
+
+}
+h2{
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	
+}
+.navbar-default .navbar-toggle{
+	border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: black;
+}
+
+
+</style>
+
+
+
+  </head>
+
+<body>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+      	<div class="navbar-brand">
+            <h2 align="center">Food, LLC</h2>
+          </div>
+        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+      </button>
+				
+
+	   </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+           
+            <li><a href="#chicken-tile"><br class="hidden-xs">Chicken</a></li>
+
+             <li> <a href="#beef-tile"><br class="hidden-xs">Beef</a> </li>
+
+             <li><a href="#sushi-tile"><br class="hidden-xs">Sushi</a></li>
+            
+          </ul>
+          
+        </div>
+        
+      </nav>
+
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-sm-12 ">
+				<h3 align="center">Our Menu</h3>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="box">
+					<p class="item-name" >chicken</p>
+					<p>lorem ipsum dolor amet,consectetur adipisicing elit, 
+					sed do eiusmod  tempor incididunt  ut labore et dolor magna aliqua. ut enim ad minim venium, 
+					quis nostrud  exerciation ullamco laboris nisi ut aliquip  ex ea tempor incididunt  ut labore et dolor magna aliqua. ut enim ad minim venium, quis nostrud  exerciation ullamco laboris nisi ut aliquip  ex ea</p>
+					  <p>
+          <a href="#top">Back to Top</a>
+          </p>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+				<div class="box">
+				<p class="item-name">Beef</p>
+				<p>lorem ipsum dolor amet,consectetur adipisicing elit, 
+				sed do eiusmod  tempor incididunt  ut labore et dolor magna aliqua. ut enim ad minim venium, 
+				quis nostrud  exerciation ullamco laboris nisi ut aliquip  ex tempor incididunt  ut labore et dolor magna aliqua. ut enim ad minim venium,quis nostrud  exerciation ullamco laboris nisi ut aliquip  ex ea ea</p>
+				
+				<p><a href="#top">Back to Top</a></p>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+				<div class="box">
+				<p class="item-name">Sushi</p>
+				<p>lorem ipsum dolor amet,consectetur adipisicing elit, 
+				sed do eiusmod  tempor incididunt  ut labore et dolor magna aliqua. ut enim ad minim venium, 
+				quis nostrud  exerciation ullamco tempor incididunt  ut labore et dolor magna aliqua. ut enim ad minim venium quis nostrud  exerciation ullamco laboris nisi ut aliquip  ex ea laboris nisi ut aliquip  ex ea</p>
+				<p><a href="#top">Back to Top</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+</body>
+</html>				
+
+
